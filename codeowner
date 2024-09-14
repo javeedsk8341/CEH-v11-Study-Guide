@@ -1,0 +1,33 @@
+# This file provides an overview of code owners in the `examples` repository.
+
+# Each line is a file pattern followed by one or more owners.
+# The last matching pattern has the most precedence.
+# For more details, read the following article on GitHub: https://help.github.com/articles/about-codeowners/.
+
+# These are the default owners for the whole content of the `examples` repository. The default owners are automatically added as reviewers when you open a pull request, unless different owners are specified in the file.
+* @pbochynski @PK85 @a-thaler
+
+# Service binding example
+/service-binding/ @rakesh-garimella @lilitgh @k15r @nachtmaar @marcobebway
+
+# Orders service example
+/orders-service/ @m00g3n @pPrecel 
+
+# In-cluster eventing using function example
+/incluster_eventing/ @m00g3n @pPrecel @dbadura @kwiatekus @cortey
+
+# Custom function runtime image example
+/custom-serverless-runtime-image/ @kyma-project/otters
+
+# Observability
+/jaeger/ @kyma-project/observability
+/kiali/ @kyma-project/observability
+/loki/ @kyma-project/observability
+/prometheus/ @kyma-project/observability
+/trace-demo/ @kyma-project/observability
+
+# Scaling functions to zero with KEDA
+/scale-to-zero-with-keda @kyma-project/otters
+
+# All .md files
+*.md @kyma-project/technical-writers
